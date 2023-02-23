@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+body{
+  font-size: 100%;
+  background: linear-gradient(80.00deg,white 16.00%,lightBlue 80.00%);
+}
+
+.text-titulo{
+  border:1.5px solid lightblue;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding-right: 10%;
+  font-size:280%;
+}
+
+.headm{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  gap: 30%;
+}
+.anco{
+  color: darkblue;
+}
+
+.anco:hover{
+   background: white;
+   border-radius: 15%;
+   
+}
+
+.linksm{
+  display: flex;
+  font-size: 110%;
+  gap: 20px;
+}
+
+
+.img1{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10%;
+  gap: 10%;
+  margin-top: 3%;
+  
+}
+
+.quemSomos{
+  margin-top: 6.1%;
+  padding: 3% 20%;
+  background-color: lightblue;
+}
+
+.img{
+  border-radius: 100%;
+  animation-name: anima;
+  animation-duration: 5s;
+}
+.h1m{
+  animation-name: anima2;
+  animation-duration: 2s;
+}
+
+@keyframes anima {
+    from{
+      opacity: 0.1;
+      transform: translateX(20px);
+    }
+    to{
+      transform: translateX(0);
+    }
+}
+
+@keyframes anima2 {
+  from{
+    color: transparent;
+    transform: translateY(20px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
